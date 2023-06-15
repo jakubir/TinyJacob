@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, #root {
+  @apply m-0 h-screen text-slate-600 bg-gray-50;
+}
+
+.form-submit {
+  @apply p-3 rounded bg-cyan-600 hover:bg-cyan-700 text-slate-50 font-semibold;
+}
